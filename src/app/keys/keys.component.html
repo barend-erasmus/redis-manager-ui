@@ -1,0 +1,47 @@
+<div id="wrapper">
+  <div id="sidebar-wrapper">
+    <ul class="sidebar-nav">
+      <li class="sidebar-brand">
+        <a href="/">Redis Manager</a>
+      </li>
+      <li>
+        <a href="/" >Back to Home</a>
+      </li>
+    </ul>
+  </div>
+  <div id="page-content-wrapper">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-12">
+          <h1>{{clusterName}}</h1>
+          <div class="col-lg-12">
+            <h3>Details</h3>
+            <label>Connected Clients: </label> <span *ngIf="clusterDetails != null">{{clusterDetails.connectedClients}}</span>
+            <br />
+            <label>Expired Keys: </label> <span *ngIf="clusterDetails != null">{{clusterDetails.expiredKeys}}</span>
+            <br />
+            <label>Evicted Keys: </label> <span *ngIf="clusterDetails != null">{{clusterDetails.evictedKeys}}</span>
+            <br />
+            <label>Memory Used: </label> <span *ngIf="clusterDetails != null">{{clusterDetails.usedMemory}} MB</span>
+          </div>
+          <div class="col-lg-12">
+            <div class="form-group">
+              <label for="pattern">Pattern:</label>
+              <input type="text" [(ngModel)]="pattern" class="form-control" id="pattern">
+            </div>
+            <button class="btn btn-primary" (click)="onClick_Search()">Search</button>
+          </div>
+          <div class="col-lg-12">
+            <h3>Keys</h3>
+             <img src="/assets/images/loader.gif" height="70" width="70" *ngIf="keys == null" />
+            <ul *ngIf="keys != null">
+              <li *ngFor="let item of keys">
+                <a (click)="onClick_Key(item)">{{item}}</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
