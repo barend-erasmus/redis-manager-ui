@@ -46,7 +46,7 @@ export class HomeComponent implements OnInit {
       return;
     }
 
-    this.http.post(`${environment.api.uri}:${environment.api.port}/cluster/clear`, {
+    this.http.post(`${environment.api.uri}:${environment.api.port}/api/cluster/clear`, {
       name: this.selectedCluster.name,
       pattern: this.clearClusterPattern
     })
@@ -65,7 +65,7 @@ export class HomeComponent implements OnInit {
       return;
     }
 
-    this.http.get(`${environment.api.uri}:${environment.api.port}/cluster/find?name=${this.selectedCluster.name}`)
+    this.http.get(`${environment.api.uri}:${environment.api.port}/api/cluster/find?name=${this.selectedCluster.name}`)
       .map((res: Response) => res.json())
       .subscribe((result: any) => {
         this.selectedCluster = result;
@@ -82,7 +82,7 @@ export class HomeComponent implements OnInit {
       return;
     }
 
-    this.http.get(`${environment.api.uri}:${environment.api.port}/cluster/details?name=${this.selectedCluster.name}`)
+    this.http.get(`${environment.api.uri}:${environment.api.port}/api/cluster/details?name=${this.selectedCluster.name}`)
       .map((res: Response) => res.json())
       .subscribe((result: any) => {
         this.clusterDetails = result;
@@ -92,7 +92,7 @@ export class HomeComponent implements OnInit {
   }
 
   refreshClusters() {
-    this.http.get(`${environment.api.uri}:${environment.api.port}/cluster/list`)
+    this.http.get(`${environment.api.uri}:${environment.api.port}/api/cluster/list`)
       .map((res: Response) => res.json())
       .subscribe((result: any) => {
         this.clusters = result;
@@ -110,7 +110,7 @@ export class HomeComponent implements OnInit {
     for (let i = 0; i < this.selectedCluster.nodes.length; i++) {
       let node = this.selectedCluster.nodes[i];
 
-      this.http.get(`${environment.api.uri}:${environment.api.port}/node/status?ipAddress=${node.ipAddress}&port=${node.port}`)
+      this.http.get(`${environment.api.uri}:${environment.api.port}/api/node/status?ipAddress=${node.ipAddress}&port=${node.port}`)
         .map((res: Response) => res.json())
         .subscribe((result: any) => {
           node.isActive = result;

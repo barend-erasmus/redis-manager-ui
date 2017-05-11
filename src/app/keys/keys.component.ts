@@ -47,7 +47,7 @@ export class KeysComponent implements OnInit {
       return;
     }
 
-    this.http.get(`${environment.api.uri}:${environment.api.port}/cluster/details?name=${this.clusterName}`)
+    this.http.get(`${environment.api.uri}:${environment.api.port}/api/cluster/details?name=${this.clusterName}`)
       .map((res: Response) => res.json())
       .subscribe((result: any) => {
         this.clusterDetails = result;
@@ -64,7 +64,7 @@ export class KeysComponent implements OnInit {
       return;
     }
 
-    this.http.get(`${environment.api.uri}:${environment.api.port}/cluster/listKeys?name=${this.clusterName}&pattern=${this.pattern}`)
+    this.http.get(`${environment.api.uri}:${environment.api.port}/api/cluster/listKeys?name=${this.clusterName}&pattern=${this.pattern}`)
       .map((res: Response) => res.json())
       .subscribe((result: any) => {
         this.keys = result;
@@ -75,7 +75,7 @@ export class KeysComponent implements OnInit {
 
   onClick_Key(key: string) {
 
-    this.http.get(`${environment.api.uri}:${environment.api.port}/node/getkey?name=${this.clusterName}&key=${key}`)
+    this.http.get(`${environment.api.uri}:${environment.api.port}/api/node/getkey?name=${this.clusterName}&key=${key}`)
       .map((res: Response) => res.text())
       .subscribe((result: any) => {
         this.modal.alert()
