@@ -2,8 +2,6 @@ gulp docker:stop --host 172.24.40.25 --username root --password tHYGN27A9cQM --s
 
 gulp publish:source --host 172.24.40.25 --username root --password tHYGN27A9cQM --service redis-manager-ui
 
-gulp publish:modules --host 172.24.40.25 --username root --password tHYGN27A9cQM --service redis-manager-ui
-
 gulp publish:dockerfile --host 172.24.40.25 --username root --password tHYGN27A9cQM --service redis-manager-ui
 
 gulp docker:build --host 172.24.40.25 --username root --password tHYGN27A9cQM --service redis-manager-ui
