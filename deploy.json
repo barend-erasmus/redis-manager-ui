@@ -4,26 +4,12 @@
         "username": "$username",
         "password": "$password"
     },
-    "commands": [
-        "docker stop redis-manager-ui",
-        "docker rm redis-manager-ui",
-        "docker build --no-cache -t redis-manager-ui /docker-uploads/redis-manager-ui",
-        "docker run -d -p 9090:4200 -v /opt/redis-manager-ui:/usr/share/nginx/html --name redis-manager-ui -t redis-manager-ui"
-    ],
+    "commands": [],
     "directories": [
         {
             "source": "$workspace/dist",
             "destination": "/opt/redis-manager-ui"
         }
     ],
-    "files": [
-        {
-            "source": "$workspace/Dockerfile",
-            "destination": "/docker-uploads/redis-manager-ui/Dockerfile"
-        },
-        {
-            "source": "$workspace/nginx.conf",
-            "destination": "/docker-uploads/redis-manager-ui/nginx.conf"
-        }
-    ]
+    "files": []
 }

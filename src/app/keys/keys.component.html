@@ -2,10 +2,10 @@
   <div id="sidebar-wrapper">
     <ul class="sidebar-nav">
       <li class="sidebar-brand">
-        <a href="/">Redis Manager</a>
+        <a href="/redismanager">Redis Manager</a>
       </li>
       <li>
-        <a href="/" >Back to Home</a>
+        <a href="/redismanager" >Back to Home</a>
       </li>
     </ul>
   </div>
@@ -33,7 +33,7 @@
           </div>
           <div class="col-lg-12">
             <h3>Keys</h3>
-             <img src="/assets/images/loader.gif" height="70" width="70" *ngIf="keys == null" />
+             <img src="/redismanager/assets/images/loader.gif" height="70" width="70" *ngIf="keys == null" />
             <ul *ngIf="keys != null">
               <li *ngFor="let item of keys">
                 <a (click)="onClick_Key(item)">{{item}}</a>

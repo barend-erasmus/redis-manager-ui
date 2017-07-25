@@ -1,0 +1,156 @@
+{"_":[],"f":"deploy.json","file":"deploy.json","host":"192.168.46.112","username":"root","password":"Eur0m0nit0r","workspace":"./","$0":"C:\\Users\\Barend.Erasmus\\AppData\\Roaming\\npm\\node_modules\\ssh-deployer\\bin\\ssh-deployer","level":"debug","message":"Start","timestamp":"2017-07-25T12:22:55.984Z"}
+{"level":"info","message":"Successfully created '/opt/redis-manager-ui/assets/css","timestamp":"2017-07-25T12:22:56.187Z"}
+{"level":"info","message":"Successfully created '/opt/redis-manager-ui/assets/fonts","timestamp":"2017-07-25T12:22:56.196Z"}
+{"level":"info","message":"Successfully created '/opt/redis-manager-ui/assets/images","timestamp":"2017-07-25T12:22:56.205Z"}
+{"level":"info","message":"Successfully created '/opt/redis-manager-ui/assets/js","timestamp":"2017-07-25T12:22:56.209Z"}
+{"level":"info","message":"Successfully created '/opt/redis-manager-ui","timestamp":"2017-07-25T12:22:56.216Z"}
+{"level":"info","message":"Queuing 'dist/assets/css/bootstrap.css' to '/opt/redis-manager-ui/assets/css/bootstrap.css'","timestamp":"2017-07-25T12:22:56.221Z"}
+{"level":"info","message":"Successfully copied 'dist/assets/css/bootstrap.css' to '/opt/redis-manager-ui/assets/css/bootstrap.css'","timestamp":"2017-07-25T12:22:56.251Z"}
+{"level":"info","message":"Queuing 'dist/assets/css/bootstrap.min.css' to '/opt/redis-manager-ui/assets/css/bootstrap.min.css'","timestamp":"2017-07-25T12:22:56.252Z"}
+{"level":"info","message":"Successfully copied 'dist/assets/css/bootstrap.min.css' to '/opt/redis-manager-ui/assets/css/bootstrap.min.css'","timestamp":"2017-07-25T12:22:56.262Z"}
+{"level":"info","message":"Queuing 'dist/assets/css/simple-sidebar.css' to '/opt/redis-manager-ui/assets/css/simple-sidebar.css'","timestamp":"2017-07-25T12:22:56.263Z"}
+{"level":"info","message":"Successfully copied 'dist/assets/css/simple-sidebar.css' to '/opt/redis-manager-ui/assets/css/simple-sidebar.css'","timestamp":"2017-07-25T12:22:56.268Z"}
+{"level":"info","message":"Queuing 'dist/assets/fonts/glyphicons-halflings-regular.eot' to '/opt/redis-manager-ui/assets/fonts/glyphicons-halflings-regular.eot'","timestamp":"2017-07-25T12:22:56.268Z"}
+{"level":"info","message":"Successfully copied 'dist/assets/fonts/glyphicons-halflings-regular.eot' to '/opt/redis-manager-ui/assets/fonts/glyphicons-halflings-regular.eot'","timestamp":"2017-07-25T12:22:56.277Z"}
+{"level":"info","message":"Queuing 'dist/assets/fonts/glyphicons-halflings-regular.svg' to '/opt/redis-manager-ui/assets/fonts/glyphicons-halflings-regular.svg'","timestamp":"2017-07-25T12:22:56.278Z"}
+{"level":"info","message":"Successfully copied 'dist/assets/fonts/glyphicons-halflings-regular.svg' to '/opt/redis-manager-ui/assets/fonts/glyphicons-halflings-regular.svg'","timestamp":"2017-07-25T12:22:56.287Z"}
+{"level":"info","message":"Queuing 'dist/assets/fonts/glyphicons-halflings-regular.ttf' to '/opt/redis-manager-ui/assets/fonts/glyphicons-halflings-regular.ttf'","timestamp":"2017-07-25T12:22:56.288Z"}
+{"level":"info","message":"Successfully copied 'dist/assets/fonts/glyphicons-halflings-regular.ttf' to '/opt/redis-manager-ui/assets/fonts/glyphicons-halflings-regular.ttf'","timestamp":"2017-07-25T12:22:56.298Z"}
+{"level":"info","message":"Queuing 'dist/assets/fonts/glyphicons-halflings-regular.woff' to '/opt/redis-manager-ui/assets/fonts/glyphicons-halflings-regular.woff'","timestamp":"2017-07-25T12:22:56.299Z"}
+{"level":"info","message":"Successfully copied 'dist/assets/fonts/glyphicons-halflings-regular.woff' to '/opt/redis-manager-ui/assets/fonts/glyphicons-halflings-regular.woff'","timestamp":"2017-07-25T12:22:56.304Z"}
+{"level":"info","message":"Queuing 'dist/assets/fonts/glyphicons-halflings-regular.woff2' to '/opt/redis-manager-ui/assets/fonts/glyphicons-halflings-regular.woff2'","timestamp":"2017-07-25T12:22:56.305Z"}
+{"level":"info","message":"Successfully copied 'dist/assets/fonts/glyphicons-halflings-regular.woff2' to '/opt/redis-manager-ui/assets/fonts/glyphicons-halflings-regular.woff2'","timestamp":"2017-07-25T12:22:56.309Z"}
+{"level":"info","message":"Queuing 'dist/assets/images/loader.gif' to '/opt/redis-manager-ui/assets/images/loader.gif'","timestamp":"2017-07-25T12:22:56.310Z"}
+{"level":"info","message":"Successfully copied 'dist/assets/images/loader.gif' to '/opt/redis-manager-ui/assets/images/loader.gif'","timestamp":"2017-07-25T12:22:56.316Z"}
+{"level":"info","message":"Queuing 'dist/assets/images/redis.png' to '/opt/redis-manager-ui/assets/images/redis.png'","timestamp":"2017-07-25T12:22:56.318Z"}
+{"level":"info","message":"Successfully copied 'dist/assets/images/redis.png' to '/opt/redis-manager-ui/assets/images/redis.png'","timestamp":"2017-07-25T12:22:56.323Z"}
+{"level":"info","message":"Queuing 'dist/assets/js/bootstrap.js' to '/opt/redis-manager-ui/assets/js/bootstrap.js'","timestamp":"2017-07-25T12:22:56.324Z"}
+{"level":"info","message":"Successfully copied 'dist/assets/js/bootstrap.js' to '/opt/redis-manager-ui/assets/js/bootstrap.js'","timestamp":"2017-07-25T12:22:56.332Z"}
+{"level":"info","message":"Queuing 'dist/assets/js/bootstrap.min.js' to '/opt/redis-manager-ui/assets/js/bootstrap.min.js'","timestamp":"2017-07-25T12:22:56.333Z"}
+{"level":"info","message":"Successfully copied 'dist/assets/js/bootstrap.min.js' to '/opt/redis-manager-ui/assets/js/bootstrap.min.js'","timestamp":"2017-07-25T12:22:56.341Z"}
+{"level":"info","message":"Queuing 'dist/assets/js/jquery.js' to '/opt/redis-manager-ui/assets/js/jquery.js'","timestamp":"2017-07-25T12:22:56.342Z"}
+{"level":"info","message":"Successfully copied 'dist/assets/js/jquery.js' to '/opt/redis-manager-ui/assets/js/jquery.js'","timestamp":"2017-07-25T12:22:56.352Z"}
+{"level":"info","message":"Queuing 'dist/favicon.ico' to '/opt/redis-manager-ui/favicon.ico'","timestamp":"2017-07-25T12:22:56.353Z"}
+{"level":"info","message":"Successfully copied 'dist/favicon.ico' to '/opt/redis-manager-ui/favicon.ico'","timestamp":"2017-07-25T12:22:56.357Z"}
+{"level":"info","message":"Queuing 'dist/index.html' to '/opt/redis-manager-ui/index.html'","timestamp":"2017-07-25T12:22:56.359Z"}
+{"level":"info","message":"Successfully copied 'dist/index.html' to '/opt/redis-manager-ui/index.html'","timestamp":"2017-07-25T12:22:56.366Z"}
+{"level":"info","message":"Queuing 'dist/inline.4e50dc0072126fd6457a.bundle.js' to '/opt/redis-manager-ui/inline.4e50dc0072126fd6457a.bundle.js'","timestamp":"2017-07-25T12:22:56.367Z"}
+{"level":"info","message":"Successfully copied 'dist/inline.4e50dc0072126fd6457a.bundle.js' to '/opt/redis-manager-ui/inline.4e50dc0072126fd6457a.bundle.js'","timestamp":"2017-07-25T12:22:56.371Z"}
+{"level":"info","message":"Queuing 'dist/main.d20710773ede5cd9e133.bundle.js' to '/opt/redis-manager-ui/main.d20710773ede5cd9e133.bundle.js'","timestamp":"2017-07-25T12:22:56.372Z"}
+{"level":"info","message":"Successfully copied 'dist/main.d20710773ede5cd9e133.bundle.js' to '/opt/redis-manager-ui/main.d20710773ede5cd9e133.bundle.js'","timestamp":"2017-07-25T12:22:56.381Z"}
+{"level":"info","message":"Queuing 'dist/main.d20710773ede5cd9e133.bundle.js.gz' to '/opt/redis-manager-ui/main.d20710773ede5cd9e133.bundle.js.gz'","timestamp":"2017-07-25T12:22:56.382Z"}
+{"level":"info","message":"Successfully copied 'dist/main.d20710773ede5cd9e133.bundle.js.gz' to '/opt/redis-manager-ui/main.d20710773ede5cd9e133.bundle.js.gz'","timestamp":"2017-07-25T12:22:56.387Z"}
+{"level":"info","message":"Queuing 'dist/polyfills.f0ee7fcdaddeb8bb1868.bundle.js' to '/opt/redis-manager-ui/polyfills.f0ee7fcdaddeb8bb1868.bundle.js'","timestamp":"2017-07-25T12:22:56.388Z"}
+{"level":"info","message":"Successfully copied 'dist/polyfills.f0ee7fcdaddeb8bb1868.bundle.js' to '/opt/redis-manager-ui/polyfills.f0ee7fcdaddeb8bb1868.bundle.js'","timestamp":"2017-07-25T12:22:56.396Z"}
+{"level":"info","message":"Queuing 'dist/polyfills.f0ee7fcdaddeb8bb1868.bundle.js.gz' to '/opt/redis-manager-ui/polyfills.f0ee7fcdaddeb8bb1868.bundle.js.gz'","timestamp":"2017-07-25T12:22:56.397Z"}
+{"level":"info","message":"Successfully copied 'dist/polyfills.f0ee7fcdaddeb8bb1868.bundle.js.gz' to '/opt/redis-manager-ui/polyfills.f0ee7fcdaddeb8bb1868.bundle.js.gz'","timestamp":"2017-07-25T12:22:56.401Z"}
+{"level":"info","message":"Queuing 'dist/styles.d41d8cd98f00b204e980.bundle.css' to '/opt/redis-manager-ui/styles.d41d8cd98f00b204e980.bundle.css'","timestamp":"2017-07-25T12:22:56.404Z"}
+{"level":"info","message":"Successfully copied 'dist/styles.d41d8cd98f00b204e980.bundle.css' to '/opt/redis-manager-ui/styles.d41d8cd98f00b204e980.bundle.css'","timestamp":"2017-07-25T12:22:56.407Z"}
+{"level":"info","message":"Queuing 'dist/vendor.7fe2183d77dbd7e8c945.bundle.js' to '/opt/redis-manager-ui/vendor.7fe2183d77dbd7e8c945.bundle.js'","timestamp":"2017-07-25T12:22:56.409Z"}
+{"level":"info","message":"Successfully copied 'dist/vendor.7fe2183d77dbd7e8c945.bundle.js' to '/opt/redis-manager-ui/vendor.7fe2183d77dbd7e8c945.bundle.js'","timestamp":"2017-07-25T12:22:56.424Z"}
+{"level":"info","message":"Queuing 'dist/vendor.7fe2183d77dbd7e8c945.bundle.js.gz' to '/opt/redis-manager-ui/vendor.7fe2183d77dbd7e8c945.bundle.js.gz'","timestamp":"2017-07-25T12:22:56.424Z"}
+{"level":"info","message":"Successfully copied 'dist/vendor.7fe2183d77dbd7e8c945.bundle.js.gz' to '/opt/redis-manager-ui/vendor.7fe2183d77dbd7e8c945.bundle.js.gz'","timestamp":"2017-07-25T12:22:56.432Z"}
+{"_":[],"f":"deploy.json","file":"deploy.json","host":"192.168.46.112","username":"root","password":"Eur0m0nit0r","workspace":"./","$0":"C:\\Users\\Barend.Erasmus\\AppData\\Roaming\\npm\\node_modules\\ssh-deployer\\bin\\ssh-deployer","level":"debug","message":"Start","timestamp":"2017-07-25T12:26:04.648Z"}
+{"level":"info","message":"Successfully created '/opt/redis-manager-ui/assets/css","timestamp":"2017-07-25T12:26:04.887Z"}
+{"level":"info","message":"Successfully created '/opt/redis-manager-ui/assets/fonts","timestamp":"2017-07-25T12:26:04.904Z"}
+{"level":"info","message":"Successfully created '/opt/redis-manager-ui/assets/images","timestamp":"2017-07-25T12:26:04.929Z"}
+{"level":"info","message":"Successfully created '/opt/redis-manager-ui/assets/js","timestamp":"2017-07-25T12:26:04.938Z"}
+{"level":"info","message":"Successfully created '/opt/redis-manager-ui","timestamp":"2017-07-25T12:26:04.948Z"}
+{"level":"info","message":"Queuing 'dist/assets/css/bootstrap.css' to '/opt/redis-manager-ui/assets/css/bootstrap.css'","timestamp":"2017-07-25T12:26:04.949Z"}
+{"level":"info","message":"Successfully copied 'dist/assets/css/bootstrap.css' to '/opt/redis-manager-ui/assets/css/bootstrap.css'","timestamp":"2017-07-25T12:26:04.980Z"}
+{"level":"info","message":"Queuing 'dist/assets/css/bootstrap.min.css' to '/opt/redis-manager-ui/assets/css/bootstrap.min.css'","timestamp":"2017-07-25T12:26:04.982Z"}
+{"level":"info","message":"Successfully copied 'dist/assets/css/bootstrap.min.css' to '/opt/redis-manager-ui/assets/css/bootstrap.min.css'","timestamp":"2017-07-25T12:26:04.995Z"}
+{"level":"info","message":"Queuing 'dist/assets/css/simple-sidebar.css' to '/opt/redis-manager-ui/assets/css/simple-sidebar.css'","timestamp":"2017-07-25T12:26:04.999Z"}
+{"level":"info","message":"Successfully copied 'dist/assets/css/simple-sidebar.css' to '/opt/redis-manager-ui/assets/css/simple-sidebar.css'","timestamp":"2017-07-25T12:26:05.004Z"}
+{"level":"info","message":"Queuing 'dist/assets/fonts/glyphicons-halflings-regular.eot' to '/opt/redis-manager-ui/assets/fonts/glyphicons-halflings-regular.eot'","timestamp":"2017-07-25T12:26:05.005Z"}
+{"level":"info","message":"Successfully copied 'dist/assets/fonts/glyphicons-halflings-regular.eot' to '/opt/redis-manager-ui/assets/fonts/glyphicons-halflings-regular.eot'","timestamp":"2017-07-25T12:26:05.011Z"}
+{"level":"info","message":"Queuing 'dist/assets/fonts/glyphicons-halflings-regular.svg' to '/opt/redis-manager-ui/assets/fonts/glyphicons-halflings-regular.svg'","timestamp":"2017-07-25T12:26:05.014Z"}
+{"level":"info","message":"Successfully copied 'dist/assets/fonts/glyphicons-halflings-regular.svg' to '/opt/redis-manager-ui/assets/fonts/glyphicons-halflings-regular.svg'","timestamp":"2017-07-25T12:26:05.024Z"}
+{"level":"info","message":"Queuing 'dist/assets/fonts/glyphicons-halflings-regular.ttf' to '/opt/redis-manager-ui/assets/fonts/glyphicons-halflings-regular.ttf'","timestamp":"2017-07-25T12:26:05.027Z"}
+{"level":"info","message":"Successfully copied 'dist/assets/fonts/glyphicons-halflings-regular.ttf' to '/opt/redis-manager-ui/assets/fonts/glyphicons-halflings-regular.ttf'","timestamp":"2017-07-25T12:26:05.035Z"}
+{"level":"info","message":"Queuing 'dist/assets/fonts/glyphicons-halflings-regular.woff' to '/opt/redis-manager-ui/assets/fonts/glyphicons-halflings-regular.woff'","timestamp":"2017-07-25T12:26:05.036Z"}
+{"level":"info","message":"Successfully copied 'dist/assets/fonts/glyphicons-halflings-regular.woff' to '/opt/redis-manager-ui/assets/fonts/glyphicons-halflings-regular.woff'","timestamp":"2017-07-25T12:26:05.042Z"}
+{"level":"info","message":"Queuing 'dist/assets/fonts/glyphicons-halflings-regular.woff2' to '/opt/redis-manager-ui/assets/fonts/glyphicons-halflings-regular.woff2'","timestamp":"2017-07-25T12:26:05.044Z"}
+{"level":"info","message":"Successfully copied 'dist/assets/fonts/glyphicons-halflings-regular.woff2' to '/opt/redis-manager-ui/assets/fonts/glyphicons-halflings-regular.woff2'","timestamp":"2017-07-25T12:26:05.049Z"}
+{"level":"info","message":"Queuing 'dist/assets/images/loader.gif' to '/opt/redis-manager-ui/assets/images/loader.gif'","timestamp":"2017-07-25T12:26:05.050Z"}
+{"level":"info","message":"Successfully copied 'dist/assets/images/loader.gif' to '/opt/redis-manager-ui/assets/images/loader.gif'","timestamp":"2017-07-25T12:26:05.059Z"}
+{"level":"info","message":"Queuing 'dist/assets/images/redis.png' to '/opt/redis-manager-ui/assets/images/redis.png'","timestamp":"2017-07-25T12:26:05.061Z"}
+{"level":"info","message":"Successfully copied 'dist/assets/images/redis.png' to '/opt/redis-manager-ui/assets/images/redis.png'","timestamp":"2017-07-25T12:26:05.069Z"}
+{"level":"info","message":"Queuing 'dist/assets/js/bootstrap.js' to '/opt/redis-manager-ui/assets/js/bootstrap.js'","timestamp":"2017-07-25T12:26:05.070Z"}
+{"level":"info","message":"Successfully copied 'dist/assets/js/bootstrap.js' to '/opt/redis-manager-ui/assets/js/bootstrap.js'","timestamp":"2017-07-25T12:26:05.081Z"}
+{"level":"info","message":"Queuing 'dist/assets/js/bootstrap.min.js' to '/opt/redis-manager-ui/assets/js/bootstrap.min.js'","timestamp":"2017-07-25T12:26:05.082Z"}
+{"level":"info","message":"Successfully copied 'dist/assets/js/bootstrap.min.js' to '/opt/redis-manager-ui/assets/js/bootstrap.min.js'","timestamp":"2017-07-25T12:26:05.089Z"}
+{"level":"info","message":"Queuing 'dist/assets/js/jquery.js' to '/opt/redis-manager-ui/assets/js/jquery.js'","timestamp":"2017-07-25T12:26:05.090Z"}
+{"level":"info","message":"Successfully copied 'dist/assets/js/jquery.js' to '/opt/redis-manager-ui/assets/js/jquery.js'","timestamp":"2017-07-25T12:26:05.105Z"}
+{"level":"info","message":"Queuing 'dist/favicon.ico' to '/opt/redis-manager-ui/favicon.ico'","timestamp":"2017-07-25T12:26:05.107Z"}
+{"level":"info","message":"Successfully copied 'dist/favicon.ico' to '/opt/redis-manager-ui/favicon.ico'","timestamp":"2017-07-25T12:26:05.115Z"}
+{"level":"info","message":"Queuing 'dist/index.html' to '/opt/redis-manager-ui/index.html'","timestamp":"2017-07-25T12:26:05.116Z"}
+{"level":"info","message":"Successfully copied 'dist/index.html' to '/opt/redis-manager-ui/index.html'","timestamp":"2017-07-25T12:26:05.124Z"}
+{"level":"info","message":"Queuing 'dist/inline.4e50dc0072126fd6457a.bundle.js' to '/opt/redis-manager-ui/inline.4e50dc0072126fd6457a.bundle.js'","timestamp":"2017-07-25T12:26:05.125Z"}
+{"level":"info","message":"Successfully copied 'dist/inline.4e50dc0072126fd6457a.bundle.js' to '/opt/redis-manager-ui/inline.4e50dc0072126fd6457a.bundle.js'","timestamp":"2017-07-25T12:26:05.129Z"}
+{"level":"info","message":"Queuing 'dist/main.d20710773ede5cd9e133.bundle.js' to '/opt/redis-manager-ui/main.d20710773ede5cd9e133.bundle.js'","timestamp":"2017-07-25T12:26:05.130Z"}
+{"level":"info","message":"Successfully copied 'dist/main.d20710773ede5cd9e133.bundle.js' to '/opt/redis-manager-ui/main.d20710773ede5cd9e133.bundle.js'","timestamp":"2017-07-25T12:26:05.141Z"}
+{"level":"info","message":"Queuing 'dist/main.d20710773ede5cd9e133.bundle.js.gz' to '/opt/redis-manager-ui/main.d20710773ede5cd9e133.bundle.js.gz'","timestamp":"2017-07-25T12:26:05.142Z"}
+{"level":"info","message":"Successfully copied 'dist/main.d20710773ede5cd9e133.bundle.js.gz' to '/opt/redis-manager-ui/main.d20710773ede5cd9e133.bundle.js.gz'","timestamp":"2017-07-25T12:26:05.146Z"}
+{"level":"info","message":"Queuing 'dist/polyfills.f0ee7fcdaddeb8bb1868.bundle.js' to '/opt/redis-manager-ui/polyfills.f0ee7fcdaddeb8bb1868.bundle.js'","timestamp":"2017-07-25T12:26:05.147Z"}
+{"level":"info","message":"Successfully copied 'dist/polyfills.f0ee7fcdaddeb8bb1868.bundle.js' to '/opt/redis-manager-ui/polyfills.f0ee7fcdaddeb8bb1868.bundle.js'","timestamp":"2017-07-25T12:26:05.154Z"}
+{"level":"info","message":"Queuing 'dist/polyfills.f0ee7fcdaddeb8bb1868.bundle.js.gz' to '/opt/redis-manager-ui/polyfills.f0ee7fcdaddeb8bb1868.bundle.js.gz'","timestamp":"2017-07-25T12:26:05.154Z"}
+{"level":"info","message":"Successfully copied 'dist/polyfills.f0ee7fcdaddeb8bb1868.bundle.js.gz' to '/opt/redis-manager-ui/polyfills.f0ee7fcdaddeb8bb1868.bundle.js.gz'","timestamp":"2017-07-25T12:26:05.158Z"}
+{"level":"info","message":"Queuing 'dist/styles.d41d8cd98f00b204e980.bundle.css' to '/opt/redis-manager-ui/styles.d41d8cd98f00b204e980.bundle.css'","timestamp":"2017-07-25T12:26:05.159Z"}
+{"level":"info","message":"Successfully copied 'dist/styles.d41d8cd98f00b204e980.bundle.css' to '/opt/redis-manager-ui/styles.d41d8cd98f00b204e980.bundle.css'","timestamp":"2017-07-25T12:26:05.161Z"}
+{"level":"info","message":"Queuing 'dist/vendor.7fe2183d77dbd7e8c945.bundle.js' to '/opt/redis-manager-ui/vendor.7fe2183d77dbd7e8c945.bundle.js'","timestamp":"2017-07-25T12:26:05.164Z"}
+{"level":"info","message":"Successfully copied 'dist/vendor.7fe2183d77dbd7e8c945.bundle.js' to '/opt/redis-manager-ui/vendor.7fe2183d77dbd7e8c945.bundle.js'","timestamp":"2017-07-25T12:26:05.179Z"}
+{"level":"info","message":"Queuing 'dist/vendor.7fe2183d77dbd7e8c945.bundle.js.gz' to '/opt/redis-manager-ui/vendor.7fe2183d77dbd7e8c945.bundle.js.gz'","timestamp":"2017-07-25T12:26:05.180Z"}
+{"level":"info","message":"Successfully copied 'dist/vendor.7fe2183d77dbd7e8c945.bundle.js.gz' to '/opt/redis-manager-ui/vendor.7fe2183d77dbd7e8c945.bundle.js.gz'","timestamp":"2017-07-25T12:26:05.187Z"}
+{"_":[],"f":"deploy.json","file":"deploy.json","host":"192.168.46.112","username":"root","password":"Eur0m0nit0r","workspace":"./","$0":"C:\\Users\\Barend.Erasmus\\AppData\\Roaming\\npm\\node_modules\\ssh-deployer\\bin\\ssh-deployer","level":"debug","message":"Start","timestamp":"2017-07-25T12:27:42.611Z"}
+{"level":"info","message":"Successfully created '/opt/redis-manager-ui/assets/css","timestamp":"2017-07-25T12:27:42.844Z"}
+{"level":"info","message":"Successfully created '/opt/redis-manager-ui/assets/fonts","timestamp":"2017-07-25T12:27:42.859Z"}
+{"level":"info","message":"Successfully created '/opt/redis-manager-ui/assets/images","timestamp":"2017-07-25T12:27:42.872Z"}
+{"level":"info","message":"Successfully created '/opt/redis-manager-ui/assets/js","timestamp":"2017-07-25T12:27:42.878Z"}
+{"level":"info","message":"Successfully created '/opt/redis-manager-ui","timestamp":"2017-07-25T12:27:42.886Z"}
+{"level":"info","message":"Queuing 'dist/assets/css/bootstrap.css' to '/opt/redis-manager-ui/assets/css/bootstrap.css'","timestamp":"2017-07-25T12:27:42.887Z"}
+{"level":"info","message":"Successfully copied 'dist/assets/css/bootstrap.css' to '/opt/redis-manager-ui/assets/css/bootstrap.css'","timestamp":"2017-07-25T12:27:42.908Z"}
+{"level":"info","message":"Queuing 'dist/assets/css/bootstrap.min.css' to '/opt/redis-manager-ui/assets/css/bootstrap.min.css'","timestamp":"2017-07-25T12:27:42.909Z"}
+{"level":"info","message":"Successfully copied 'dist/assets/css/bootstrap.min.css' to '/opt/redis-manager-ui/assets/css/bootstrap.min.css'","timestamp":"2017-07-25T12:27:42.917Z"}
+{"level":"info","message":"Queuing 'dist/assets/css/simple-sidebar.css' to '/opt/redis-manager-ui/assets/css/simple-sidebar.css'","timestamp":"2017-07-25T12:27:42.918Z"}
+{"level":"info","message":"Successfully copied 'dist/assets/css/simple-sidebar.css' to '/opt/redis-manager-ui/assets/css/simple-sidebar.css'","timestamp":"2017-07-25T12:27:42.922Z"}
+{"level":"info","message":"Queuing 'dist/assets/fonts/glyphicons-halflings-regular.eot' to '/opt/redis-manager-ui/assets/fonts/glyphicons-halflings-regular.eot'","timestamp":"2017-07-25T12:27:42.923Z"}
+{"level":"info","message":"Successfully copied 'dist/assets/fonts/glyphicons-halflings-regular.eot' to '/opt/redis-manager-ui/assets/fonts/glyphicons-halflings-regular.eot'","timestamp":"2017-07-25T12:27:42.929Z"}
+{"level":"info","message":"Queuing 'dist/assets/fonts/glyphicons-halflings-regular.svg' to '/opt/redis-manager-ui/assets/fonts/glyphicons-halflings-regular.svg'","timestamp":"2017-07-25T12:27:42.929Z"}
+{"level":"info","message":"Successfully copied 'dist/assets/fonts/glyphicons-halflings-regular.svg' to '/opt/redis-manager-ui/assets/fonts/glyphicons-halflings-regular.svg'","timestamp":"2017-07-25T12:27:42.937Z"}
+{"level":"info","message":"Queuing 'dist/assets/fonts/glyphicons-halflings-regular.ttf' to '/opt/redis-manager-ui/assets/fonts/glyphicons-halflings-regular.ttf'","timestamp":"2017-07-25T12:27:42.938Z"}
+{"level":"info","message":"Successfully copied 'dist/assets/fonts/glyphicons-halflings-regular.ttf' to '/opt/redis-manager-ui/assets/fonts/glyphicons-halflings-regular.ttf'","timestamp":"2017-07-25T12:27:42.944Z"}
+{"level":"info","message":"Queuing 'dist/assets/fonts/glyphicons-halflings-regular.woff' to '/opt/redis-manager-ui/assets/fonts/glyphicons-halflings-regular.woff'","timestamp":"2017-07-25T12:27:42.946Z"}
+{"level":"info","message":"Successfully copied 'dist/assets/fonts/glyphicons-halflings-regular.woff' to '/opt/redis-manager-ui/assets/fonts/glyphicons-halflings-regular.woff'","timestamp":"2017-07-25T12:27:42.950Z"}
+{"level":"info","message":"Queuing 'dist/assets/fonts/glyphicons-halflings-regular.woff2' to '/opt/redis-manager-ui/assets/fonts/glyphicons-halflings-regular.woff2'","timestamp":"2017-07-25T12:27:42.951Z"}
+{"level":"info","message":"Successfully copied 'dist/assets/fonts/glyphicons-halflings-regular.woff2' to '/opt/redis-manager-ui/assets/fonts/glyphicons-halflings-regular.woff2'","timestamp":"2017-07-25T12:27:42.956Z"}
+{"level":"info","message":"Queuing 'dist/assets/images/loader.gif' to '/opt/redis-manager-ui/assets/images/loader.gif'","timestamp":"2017-07-25T12:27:42.957Z"}
+{"level":"info","message":"Successfully copied 'dist/assets/images/loader.gif' to '/opt/redis-manager-ui/assets/images/loader.gif'","timestamp":"2017-07-25T12:27:42.965Z"}
+{"level":"info","message":"Queuing 'dist/assets/images/redis.png' to '/opt/redis-manager-ui/assets/images/redis.png'","timestamp":"2017-07-25T12:27:42.967Z"}
+{"level":"info","message":"Successfully copied 'dist/assets/images/redis.png' to '/opt/redis-manager-ui/assets/images/redis.png'","timestamp":"2017-07-25T12:27:42.974Z"}
+{"level":"info","message":"Queuing 'dist/assets/js/bootstrap.js' to '/opt/redis-manager-ui/assets/js/bootstrap.js'","timestamp":"2017-07-25T12:27:42.976Z"}
+{"level":"info","message":"Successfully copied 'dist/assets/js/bootstrap.js' to '/opt/redis-manager-ui/assets/js/bootstrap.js'","timestamp":"2017-07-25T12:27:42.988Z"}
+{"level":"info","message":"Queuing 'dist/assets/js/bootstrap.min.js' to '/opt/redis-manager-ui/assets/js/bootstrap.min.js'","timestamp":"2017-07-25T12:27:42.991Z"}
+{"level":"info","message":"Successfully copied 'dist/assets/js/bootstrap.min.js' to '/opt/redis-manager-ui/assets/js/bootstrap.min.js'","timestamp":"2017-07-25T12:27:42.999Z"}
+{"level":"info","message":"Queuing 'dist/assets/js/jquery.js' to '/opt/redis-manager-ui/assets/js/jquery.js'","timestamp":"2017-07-25T12:27:43.002Z"}
+{"level":"info","message":"Successfully copied 'dist/assets/js/jquery.js' to '/opt/redis-manager-ui/assets/js/jquery.js'","timestamp":"2017-07-25T12:27:43.017Z"}
+{"level":"info","message":"Queuing 'dist/favicon.ico' to '/opt/redis-manager-ui/favicon.ico'","timestamp":"2017-07-25T12:27:43.020Z"}
+{"level":"info","message":"Successfully copied 'dist/favicon.ico' to '/opt/redis-manager-ui/favicon.ico'","timestamp":"2017-07-25T12:27:43.025Z"}
+{"level":"info","message":"Queuing 'dist/index.html' to '/opt/redis-manager-ui/index.html'","timestamp":"2017-07-25T12:27:43.027Z"}
+{"level":"info","message":"Successfully copied 'dist/index.html' to '/opt/redis-manager-ui/index.html'","timestamp":"2017-07-25T12:27:43.036Z"}
+{"level":"info","message":"Queuing 'dist/inline.9a9798cd7aeabdedca6a.bundle.js' to '/opt/redis-manager-ui/inline.9a9798cd7aeabdedca6a.bundle.js'","timestamp":"2017-07-25T12:27:43.038Z"}
+{"level":"info","message":"Successfully copied 'dist/inline.9a9798cd7aeabdedca6a.bundle.js' to '/opt/redis-manager-ui/inline.9a9798cd7aeabdedca6a.bundle.js'","timestamp":"2017-07-25T12:27:43.042Z"}
+{"level":"info","message":"Queuing 'dist/main.a27b32177103c9897f0d.bundle.js' to '/opt/redis-manager-ui/main.a27b32177103c9897f0d.bundle.js'","timestamp":"2017-07-25T12:27:43.042Z"}
+{"level":"info","message":"Successfully copied 'dist/main.a27b32177103c9897f0d.bundle.js' to '/opt/redis-manager-ui/main.a27b32177103c9897f0d.bundle.js'","timestamp":"2017-07-25T12:27:43.051Z"}
+{"level":"info","message":"Queuing 'dist/main.a27b32177103c9897f0d.bundle.js.gz' to '/opt/redis-manager-ui/main.a27b32177103c9897f0d.bundle.js.gz'","timestamp":"2017-07-25T12:27:43.053Z"}
+{"level":"info","message":"Successfully copied 'dist/main.a27b32177103c9897f0d.bundle.js.gz' to '/opt/redis-manager-ui/main.a27b32177103c9897f0d.bundle.js.gz'","timestamp":"2017-07-25T12:27:43.056Z"}
+{"level":"info","message":"Queuing 'dist/polyfills.f0ee7fcdaddeb8bb1868.bundle.js' to '/opt/redis-manager-ui/polyfills.f0ee7fcdaddeb8bb1868.bundle.js'","timestamp":"2017-07-25T12:27:43.057Z"}
+{"level":"info","message":"Successfully copied 'dist/polyfills.f0ee7fcdaddeb8bb1868.bundle.js' to '/opt/redis-manager-ui/polyfills.f0ee7fcdaddeb8bb1868.bundle.js'","timestamp":"2017-07-25T12:27:43.063Z"}
+{"level":"info","message":"Queuing 'dist/polyfills.f0ee7fcdaddeb8bb1868.bundle.js.gz' to '/opt/redis-manager-ui/polyfills.f0ee7fcdaddeb8bb1868.bundle.js.gz'","timestamp":"2017-07-25T12:27:43.064Z"}
+{"level":"info","message":"Successfully copied 'dist/polyfills.f0ee7fcdaddeb8bb1868.bundle.js.gz' to '/opt/redis-manager-ui/polyfills.f0ee7fcdaddeb8bb1868.bundle.js.gz'","timestamp":"2017-07-25T12:27:43.068Z"}
+{"level":"info","message":"Queuing 'dist/styles.d41d8cd98f00b204e980.bundle.css' to '/opt/redis-manager-ui/styles.d41d8cd98f00b204e980.bundle.css'","timestamp":"2017-07-25T12:27:43.068Z"}
+{"level":"info","message":"Successfully copied 'dist/styles.d41d8cd98f00b204e980.bundle.css' to '/opt/redis-manager-ui/styles.d41d8cd98f00b204e980.bundle.css'","timestamp":"2017-07-25T12:27:43.071Z"}
+{"level":"info","message":"Queuing 'dist/vendor.7fe2183d77dbd7e8c945.bundle.js' to '/opt/redis-manager-ui/vendor.7fe2183d77dbd7e8c945.bundle.js'","timestamp":"2017-07-25T12:27:43.072Z"}
+{"level":"info","message":"Successfully copied 'dist/vendor.7fe2183d77dbd7e8c945.bundle.js' to '/opt/redis-manager-ui/vendor.7fe2183d77dbd7e8c945.bundle.js'","timestamp":"2017-07-25T12:27:43.086Z"}
+{"level":"info","message":"Queuing 'dist/vendor.7fe2183d77dbd7e8c945.bundle.js.gz' to '/opt/redis-manager-ui/vendor.7fe2183d77dbd7e8c945.bundle.js.gz'","timestamp":"2017-07-25T12:27:43.086Z"}
+{"level":"info","message":"Successfully copied 'dist/vendor.7fe2183d77dbd7e8c945.bundle.js.gz' to '/opt/redis-manager-ui/vendor.7fe2183d77dbd7e8c945.bundle.js.gz'","timestamp":"2017-07-25T12:27:43.092Z"}

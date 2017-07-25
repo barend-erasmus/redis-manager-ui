@@ -2,7 +2,7 @@
   <div id="sidebar-wrapper">
     <ul class="sidebar-nav">
       <li class="sidebar-brand">
-        <a href="/">Redis Manager</a>
+        <a href="/redismanager">Redis Manager</a>
       </li>
       <li *ngFor="let item of clusters">
         <a (click)="onClick_SelectClusterName(item.name)">{{item.name}}</a>
@@ -14,7 +14,7 @@
       <div class="row">
         <div class="col-lg-12" *ngIf="selectedCluster != null">
           <h1>{{selectedClusterName}}</h1>
-          <h4><a href="/keys/{{selectedCluster.name}}">Keys</a></h4>
+          <h4><a href="/redismanager/keys/{{selectedCluster.name}}">Keys</a></h4>
           <div class="col-lg-6">
             <h3>Details</h3>
             <label>Connected Clients: </label> <span *ngIf="clusterDetails != null">{{clusterDetails.connectedClients}}</span>
@@ -40,10 +40,10 @@
           </div>
           <div class="col-lg-12">
             <h3>Nodes</h3>
-            <img src="/assets/images/loader.gif" height="70" width="70" *ngIf="selectedCluster.nodes == null" />
+            <img src="/redismanager/assets/images/loader.gif" height="70" width="70" *ngIf="selectedCluster.nodes == null" />
             <div class="row" *ngIf="selectedCluster.nodes != null">
               <div class="col-md-3" *ngFor="let item of selectedCluster.nodes">
-                <img src="/assets/images/redis.png" class="{{item.isActive? '' : 'grayscale'}}" height="70" width="70" />
+                <img src="/redismanager/assets/images/redis.png" class="{{item.isActive? '' : 'grayscale'}}" height="70" width="70" />
                 <br />
                 <label>IP Address: </label> {{item.ipAddress}}
                 <br />
